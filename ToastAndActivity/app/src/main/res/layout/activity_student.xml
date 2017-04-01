@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anderson.toastandactivity.StudentActivity">
+    <TextView
+        android:id="@+id/tv_foto"
+        android:text="Foto: "
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_toRightOf="@+id/tv_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_below="@+id/iv_foto"
+        android:text="Nome: "
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/et_nome"
+        android:layout_toRightOf="@+id/tv_nome"
+        android:layout_below="@+id/iv_foto"
+        android:text="Nome não informado!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_fone"
+        android:text="Telefone: "
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/et_fone"
+        android:text="Telefone não informado!"
+        android:layout_toRightOf="@+id/tv_fone"
+        android:layout_below="@+id/tv_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_endereco"
+        android:text="Endereço: "
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_fone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/et_endereco"
+        android:text="Endereço não informado!"
+        android:layout_toRightOf="@+id/tv_endereco"
+        android:layout_below="@+id/tv_fone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_site"
+        android:text="Site: "
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/et_site"
+        android:text="Site não informado!"
+        android:layout_toRightOf="@+id/tv_site"
+        android:layout_below="@+id/tv_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_nota"
+        android:text="Nota: "
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/et_nota"
+        android:text="Nota não informada!"
+        android:layout_toRightOf="@+id/tv_nota"
+        android:layout_below="@+id/tv_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
