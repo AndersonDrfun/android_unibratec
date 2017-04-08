@@ -6,4 +6,14 @@
     <string name="hint_name">Android Ibratec</string>
     <string name="hint_email">android@ibratec.com</string>
     <string name="button_send">CADASTRAR</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+    <string name="olinda">Olinda</string>
+    <string name="chapada_diamantina">Chapada Diamantina</string>
+    <string name="noronha">Fernando de Noronha</string>
 </resources>
