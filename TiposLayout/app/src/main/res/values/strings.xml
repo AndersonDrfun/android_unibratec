@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TiposLayout</string>
+    <string name="title">CADASTRO</string>
+    <string name="name">NOME</string>
+    <string name="email">EMAIL</string>
+    <string name="hint_name">Android Ibratec</string>
+    <string name="hint_email">android@ibratec.com</string>
+    <string name="button_send">CADASTRAR</string>
+</resources>
